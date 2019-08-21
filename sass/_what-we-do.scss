@@ -1,0 +1,60 @@
+//what we do
+.do {
+  background-color: #5b69a1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  @include desktop {
+    height: 100vh;
+  }
+  .most-loved {
+    font-weight: 200;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 1rem 0;
+    @include desktop {
+      font-size: 5rem;
+    }
+  }
+  .what-we-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    @include desktop {
+      flex-direction: row;
+      padding: 1rem 0;
+    }
+    .qualities {
+      text-align: center;
+      @include desktop {
+        width: 20%;
+      }
+
+      .image {
+        height: 20vh;
+      }
+      .quality-title {
+        font-size: 1.5rem;
+        font-family: "Raleway", sans-serif;
+        color: white;
+        font-weight: 900;
+        padding-top: 1rem;
+        @include desktop {
+          line-height: 2.5rem;
+        }
+      }
+      .quality-description {
+        font-size: 1.3rem;
+        color: white;
+
+        line-height: 2rem;
+      }
+    }
+  }
+}

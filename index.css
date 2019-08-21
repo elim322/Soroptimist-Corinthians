@@ -1,0 +1,554 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-Light.eot");
+  src: url("Raleway-Light.eot?#iefix") format("embedded-opentype"), url("Raleway-Light.woff2") format("woff2"), url("Raleway-Light.woff") format("woff"), url("Raleway-Light.ttf") format("truetype"), url("Raleway-Light.svg#Raleway-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-LightItalic.eot");
+  src: url("Raleway-LightItalic.eot?#iefix") format("embedded-opentype"), url("Raleway-LightItalic.woff2") format("woff2"), url("Raleway-LightItalic.woff") format("woff"), url("Raleway-LightItalic.ttf") format("truetype"), url("Raleway-LightItalic.svg#Raleway-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-Medium.eot");
+  src: url("Raleway-Medium.eot?#iefix") format("embedded-opentype"), url("Raleway-Medium.woff2") format("woff2"), url("Raleway-Medium.woff") format("woff"), url("Raleway-Medium.ttf") format("truetype"), url("Raleway-Medium.svg#Raleway-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-MediumItalic.eot");
+  src: url("Raleway-MediumItalic.eot?#iefix") format("embedded-opentype"), url("Raleway-MediumItalic.woff2") format("woff2"), url("Raleway-MediumItalic.woff") format("woff"), url("Raleway-MediumItalic.ttf") format("truetype"), url("Raleway-MediumItalic.svg#Raleway-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("PlayfairDisplay-Italic.eot");
+  src: url("PlayfairDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("PlayfairDisplay-Italic.woff2") format("woff2"), url("PlayfairDisplay-Italic.woff") format("woff"), url("PlayfairDisplay-Italic.ttf") format("truetype"), url("PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("PlayfairDisplay-BoldItalic.eot");
+  src: url("PlayfairDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"), url("PlayfairDisplay-BoldItalic.woff2") format("woff2"), url("PlayfairDisplay-BoldItalic.woff") format("woff"), url("PlayfairDisplay-BoldItalic.ttf") format("truetype"), url("PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("PlayfairDisplay-Regular.eot");
+  src: url("PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("PlayfairDisplay-Regular.woff2") format("woff2"), url("PlayfairDisplay-Regular.woff") format("woff"), url("PlayfairDisplay-Regular.ttf") format("truetype"), url("PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("PlayfairDisplay-Bold.eot");
+  src: url("PlayfairDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("PlayfairDisplay-Bold.woff2") format("woff2"), url("PlayfairDisplay-Bold.woff") format("woff"), url("PlayfairDisplay-Bold.ttf") format("truetype"), url("PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+.footer {
+  background-color: #242424;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 4rem 0;
+}
+@media screen and (min-width: 600px) {
+  .footer {
+    text-align: left;
+  }
+}
+.footer .container {
+  padding: 0 2%;
+  margin: 0 auto;
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .footer .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  line-height: 0.8rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  line-height: 1rem;
+}
+@media screen and (min-width: 1240px) {
+  .copyright {
+    font-size: 1.2rem;
+  }
+}
+.copyright p {
+  padding-bottom: 0.2rem;
+}
+
+.address {
+  color: #969696;
+}
+
+.contact-info {
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+@media screen and (min-width: 1240px) {
+  .contact-info {
+    font-size: 1.2rem;
+  }
+}
+
+.form {
+  background-color: #ddaeb3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 1240px) {
+  .form {
+    height: 100vh;
+  }
+}
+.form .our-team-title {
+  text-align: center;
+}
+.form .our-team-title h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 0;
+  color: white;
+  padding: 1rem 0;
+}
+.form .our-team-title p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: white;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.team .team-members {
+  line-height: 0.3rem;
+  padding-bottom: 1rem;
+}
+.team .team-members .image {
+  height: 30vh;
+  box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.54);
+}
+.team .team-members .member-name {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 900;
+  padding-top: 1rem;
+  text-align: center;
+}
+.team .team-members .position {
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 0 2%;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* make it look decent enough */
+  background: #232323;
+  color: #cdcdcd;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: tomato;
+}
+
+a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #232323;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+a:hover:after {
+  transform: scaleX(1);
+}
+
+a:after {
+  transform-origin: 0% 50%;
+}
+
+#menuToggle {
+  display: block;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu {
+  position: absolute;
+  width: 50vw;
+  margin: -100px 0 0 -60px;
+  padding: 50px;
+  padding-top: 125px;
+  background-color: rgba(255, 255, 255, 0.6);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.54);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+@media screen and (min-width: 600px) {
+  #menu {
+    margin: -100px 0 0 -75px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  #menu {
+    margin: -100px 0 0 -50px;
+  }
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul {
+  transform: none;
+}
+
+section {
+  padding: 4 0;
+}
+
+.hero-banner {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/images/logo.png), url(assets/images/flowers.jpg);
+  background-position: center, center 10%;
+  background-size: cover, 13vh, cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+@media screen and (min-width: 600px) {
+  .hero-banner {
+    background-size: cover, 15vh, cover;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .hero-banner {
+    background-size: cover, 17vh, cover;
+    height: 100vh;
+  }
+}
+
+.banner-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1;
+  color: white;
+  font-family: "Playfair Display", Arial, serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(99, 99, 99, 0.8);
+}
+@media screen and (min-width: 600px) {
+  .banner-title {
+    max-width: 45rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .banner-title {
+    max-width: 77.5rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .banner-title {
+    height: 57%;
+  }
+}
+.banner-title .statement {
+  font-size: 0.8rem;
+  font-family: "Raleway", Arial, serif;
+  margin: 0 auto;
+}
+@media screen and (min-width: 600px) {
+  .banner-title .statement {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .banner-title .statement {
+    font-size: 1.5rem;
+  }
+}
+.banner-title .season {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Playfair Display", Arial, serif;
+}
+@media screen and (min-width: 600px) {
+  .banner-title .season {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .banner-title .season {
+    font-size: 4rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.do {
+  background-color: #5b69a1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 1240px) {
+  .do {
+    height: 100vh;
+  }
+}
+.do .most-loved {
+  font-weight: 200;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin: 0;
+  padding: 1rem 0;
+}
+@media screen and (min-width: 1240px) {
+  .do .most-loved {
+    font-size: 5rem;
+  }
+}
+.do .what-we-do {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1240px) {
+  .do .what-we-do {
+    flex-direction: row;
+    padding: 1rem 0;
+  }
+}
+.do .what-we-do .qualities {
+  text-align: center;
+}
+@media screen and (min-width: 1240px) {
+  .do .what-we-do .qualities {
+    width: 20%;
+  }
+}
+.do .what-we-do .qualities .image {
+  height: 20vh;
+}
+.do .what-we-do .qualities .quality-title {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 900;
+  padding-top: 1rem;
+}
+@media screen and (min-width: 1240px) {
+  .do .what-we-do .qualities .quality-title {
+    line-height: 2.5rem;
+  }
+}
+.do .what-we-do .qualities .quality-description {
+  font-size: 1.3rem;
+  color: white;
+  line-height: 2rem;
+}
+
+.about {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/images/girl-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (min-width: 1240px) {
+  .about {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 600px) {
+  .about {
+    padding-left: 0;
+  }
+}
+.about .about-text {
+  background-color: rgba(70, 80, 216, 0.8);
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+}
+@media screen and (min-width: 1240px) {
+  .about .about-text {
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    background-color: rgba(70, 80, 216, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+}
+.about .about-text .about-title {
+  font-family: "Raleway", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 3rem;
+  color: #ee959e;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+@media screen and (min-width: 600px) {
+  .about .about-text .about-title {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .about .about-text .about-title {
+    font-size: 5rem;
+  }
+}
+.about .about-text .about-description {
+  font-size: 1.5rem;
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 2rem;
+}
+@media screen and (min-width: 600px) {
+  .about .about-text .about-description {
+    line-height: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

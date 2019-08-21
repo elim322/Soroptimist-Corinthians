@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <!--Header with navigation buttons and aloha apparel logo-->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soptometrist Corinthians</title>
+    <!--Links for normalize, font, and custom style-->
+    <link href="normalize.css" type="text/css" rel="stylesheet" />
+    <link href="assets/fonts/fonts.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-
+    O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <link href="index.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+  </head>
+  <!--Navigation Bar-->
+
+  <body>
+    <!--Hero Banner-->
+    <section id="home" class="hero-banner">
+        <header class="site-header container">
+            <!-- <nav class="nav-options">
+              <ul class="navigation">
+                <li>
+                  <a href="#home" class="home">Soptometrist Corinthians</a>
+                </li>
+                <li>
+                  <a href="#shop" class="shop">About</a>
+                </li>
+                <li>
+                  <a href="#featured" class="featured">What we do</a>
+                </li>
+                <li>
+                  <a href="#updates" class="updates">Our Team</a>
+                </li>
+              </ul>
+            </nav> -->
+            <nav role="navigation">
+              <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox" />
+                
+                <!--
+                Some spans to act as a hamburger.
+                
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                <ul id="menu">
+                  <a href="#home" class="home"><li>Home</li></a>
+                  <a href="#shop" class="shop"><li>About</li></a>
+                  <a href="#featured" class="featured"><li>What We Do</li></a>
+                  <a href="#updates" class="updates"><li>Our Team</li></a>
+                  <a href="#contact" class="contact-footer"><li>Contact</li></a>
+                </ul>
+              </div>
+            </nav>
+          </header>
+      <div class="banner-title container">
+        <p class="statement">Empowering women. Best for women.</p>
+      </div>
+    </section>
+
+    <!--About-->
+    <section id="shop" class="about">
+      <div class="about-text">
+        <h1 class="about-title">Hello from Soroptimist Corinthians!</h1>
+        <p class="about-description">Greetings! We are part of a worldwide volunteer service organization for women who work for peace, and in particular to improve the lives of women and girls, in local communities and throughout the world. <br/> Women at their best, working to help other women to be their best.</p>
+      </div>
+    </section>
+
+    <!--What we do-->
+    <section class="do" id="featured">
+      <h2 class="most-loved" >
+        What we do
+      </h2>
+      <div class="what-we-do">
+        <div class="qualities">
+          <img class="image" src="assets/images/open-book.png" />
+          <h5 class="quality-title">Education</h5>
+          <p class="quality-description">
+            Women and girls deserve to lead full and productive lives through
+            access to education.
+          </p>
+        </div>
+        <div class="qualities">
+          <img class="image" src="assets/images/equality.png" />
+          <h5 class="quality-title">Promoting Gender Equality</h5>
+          <p class="quality-description">
+            Women and girls live free from discrimination.
+          </p>
+        </div>
+        <div class="qualities">
+          <img class="image" src="assets/images/stop-violence.png" />
+          <h5 class="quality-title">Creating Programs and Projects</h5>
+          <p class="quality-description">
+            Improving the lives of women and girls through programs leading to
+            social and economic empowerment.
+          </p>
+        </div>
+        <div class="qualities">
+          <img class="image" src="assets/images/womens-day.png" />
+          <h5 class="quality-title">Empowering Women and Girls</h5>
+          <p class="quality-description">
+            We are businesswomen. Women leaders. Game changers. Women at their
+            best, working to help other women to be their best.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Our Team-->
+    <section id="updates" class="form">
+      <div class="our-team-title container">
+        <h2>Our Team</h2>
+        <p>
+          The officers work hand-in-hand with the different club committees to
+          ensure smooth-sailing projects and events. They are in charge of
+          preparing annual budgets and proper usage of club fundsm as well as
+          the creation of programs, policies, and goals that would best benefit
+          the organization and its members.
+        </p>
+      </div>
+      <div class="team">
+        <div class="team-members">
+          <img class="image" src="assets/images/bettina.jpeg" />
+          <h5 class="member-name">Bettina Reyes</h5>
+          <p class="position">President</p>
+        </div>
+        <div class="team-members">
+          <img class="image" src="assets/images/nicolette.jpeg" />
+          <h5 class="member-name">Nicolette Lee</h5>
+          <p class="position">Vice President</p>
+        </div>
+        <div class="team-members">
+          <img class="image" src="assets/images/erika.jpeg" />
+          <h5 class="member-name">Erika Rellera</h5>
+          <p class="position">Secretary</p>
+        </div>
+        <div class="team-members">
+          <img class="image" src="assets/images/kimberly.jpeg" />
+          <h5 class="member-name">Kimberly Mas</h5>
+          <p class="position">Public Relations Officer</p>
+        </div>
+        <div class="team-members">
+          <img class="image" src="assets/images/janelle.jpeg" />
+          <h5 class="member-name">Janelle Lao</h5>
+          <p class="position">Treasurer</p>
+        </div>
+      </div>
+    </section>
+
+    <!--footer section-->
+    <Section id="contact">
+    <footer class="footer">
+      <div class="container">
+        <div class="company-info">
+          <div class="copyright">
+            <p>© 2019 Soptometrist Corinthians</p>
+            <p>Soroptimist International of Cornithians</p>
+            <p>A part of</p>
+            <p>Soroptimist international of the Americas</p>
+            <p>Soroptimist International of the Philippines</p>
+            <p>Greater Manila District</p>
+          </div>
+          <div class="contact-info">
+            <p>
+              <a href="mailto:soroptimistcorinthians@gmail.com"
+                >soroptimistcorinthians@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+    </footer>
+  </Section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/script2.js"></script>
+  </body>
+</html>
